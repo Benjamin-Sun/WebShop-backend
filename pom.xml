@@ -13,6 +13,15 @@
     <version>1.0.0</version>
     <name>webshop</name>
     <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>webshop-admin</module>
+        <module>webshop-service</module>
+        <module>webshop-common</module>
+        <module>webshop-config</module>
+        <module>webshop-gateway</module>
+        <module>webshop-ops</module>
+        <module>webshop-register</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -23,7 +32,9 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>2.1.1.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

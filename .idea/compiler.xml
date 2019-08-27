@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="webshop" />
+        <module name="webshop-admin" />
+        <module name="WebShop-backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="webshop" target="1.8" />
+      <module name="webshop-admin" target="1.8" />
+      <module name="WebShop-backend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

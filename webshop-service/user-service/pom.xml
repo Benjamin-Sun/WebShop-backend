@@ -11,7 +11,7 @@
     <groupId>com.group1</groupId>
     <artifactId>user</artifactId>
     <version>1.0.0</version>
-    <name>user</name>
+    <name>user-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

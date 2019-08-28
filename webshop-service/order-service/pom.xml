@@ -11,7 +11,7 @@
     <groupId>com.group1</groupId>
     <artifactId>order</artifactId>
     <version>1.0.0</version>
-    <name>order</name>
+    <name>order-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
